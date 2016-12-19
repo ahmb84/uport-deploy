@@ -3,7 +3,10 @@ A dockerized deployment of all the uport dependencies
 
 ## ethereum
 
+CapGemini has published a [writeup](https://capgemini.github.io/blockchain/ethereum-docker-compose/) on how to deploy a private Ethereum network using Docker compose. 
+
 https://github.com/ethereum/go-ethereum/wiki/Running-in-Docker
+
 
 ## ipfs
 
