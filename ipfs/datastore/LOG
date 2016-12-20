@@ -50,3 +50,13 @@
 09:41:55.909885 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
 09:41:55.918355 db@janitor F·4 G·0
 09:41:55.918735 db@open done T·15.344344ms
+=============== Dec 20, 2016 (UTC) ===============
+11:28:41.801958 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:28:41.809426 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+11:28:41.810062 db@open opening
+11:28:41.812521 journal@recovery F·1
+11:28:41.814193 journal@recovery recovering @10
+11:28:42.188684 memdb@flush created L0@12 N·23745 S·2MiB "/pr..BZQ,v13224":"/pr..BZQ,v7437"
+11:28:42.192740 version@stat F·[3] S·2MiB[2MiB] Sc·[0.75]
+11:28:42.203859 db@janitor F·5 G·0
+11:28:42.204241 db@open done T·393.783786ms
