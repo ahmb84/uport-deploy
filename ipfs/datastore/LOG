@@ -60,3 +60,20 @@
 11:28:42.192740 version@stat F·[3] S·2MiB[2MiB] Sc·[0.75]
 11:28:42.203859 db@janitor F·5 G·0
 11:28:42.204241 db@open done T·393.783786ms
+=============== Dec 20, 2016 (UTC) ===============
+13:49:01.751053 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:01.757204 version@stat F·[3] S·2MiB[2MiB] Sc·[0.75]
+13:49:01.757664 db@open opening
+13:49:01.758954 journal@recovery F·1
+13:49:01.759885 journal@recovery recovering @13
+13:49:01.774648 memdb@flush created L0@15 N·1017 S·129KiB "/pr..EBA,v23869":"/pr..ZPQ,v24261"
+13:49:01.776051 version@stat F·[4] S·3MiB[3MiB] Sc·[1.00]
+13:49:01.782404 db@janitor F·6 G·0
+13:49:01.782691 db@open done T·24.722623ms
+13:49:01.782763 table@compaction L0·2 -> L1·0 S·3MiB Q·24772
+13:49:01.947686 table@build created L1@18 N·16468 S·2MiB "/pr..BZQ,v13224":"/pr..BZQ,v13320"
+13:49:02.017040 table@build created L1@19 N·8186 S·1MiB "/pr..BZQ,v2017":"/pr..BZQ,v7437"
+13:49:02.017590 version@stat F·[2 2] S·3MiB[1KiB 3MiB] Sc·[0.50 0.03]
+13:49:02.018577 table@compaction committed F~ S-4KiB Ke·0 D·108 T·235.232298ms
+13:49:02.019662 table@remove removed @15
+13:49:02.021983 table@remove removed @12
